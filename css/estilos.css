@@ -1,6 +1,4 @@
-body{
-    background-color: #dddddd;
-}
+
 header{
     background-color: #111111;
     padding-top: 4px;
@@ -8,13 +6,12 @@ header{
     color: white; 
 }
 
-.principal{
-    width: 1585px;
-    background-color: rgb(179, 0, 0);
+.general{
+    background-color: rgb(100, 0, 0);
 } 
 
 .div1{
-    width: 47%;
+    width: 48%;
     background-color: rgb(49, 57, 59); 
     color: white; 
     font-size: 1.6em;  
@@ -22,16 +19,17 @@ header{
 }
 
 .div2{
-    width: 47%;
+    position: relative;
+    width: 48%;
     background-color: rgb(82, 82, 82); 
     color: white; 
     font-size: 1.6em;  
     padding: 10px;
-    display:
+    float: right;
+    float: top;
+    height: 368px
 }
 
 .div1, .div2{
-    display: inline-block:
-    height: 300px;
 }
 
